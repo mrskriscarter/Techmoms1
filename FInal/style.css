@@ -1,0 +1,74 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    font-family:
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    font-size: 24px;
+    font-family: poppins;
+
+}
+
+#nav-link {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+nav img {
+    width: 20%;
+}
+
+
+/* Viewport Demo */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.box {
+    background-color: lightblue;
+    color: black;
+    padding: 50px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+/* Tablet view */
+@media (max-width: 900px) {
+    .box {
+        background-color: lightgreen;
+        font-size: 1.2rem;
+    }
+}
+
+/* Phone view */
+@media (max-width: 600px) {
+    .box {
+        background-color: lightcoral;
+        font-size: 1rem;
+    }
+}
+
+
